@@ -22,7 +22,7 @@
   ## Usage 
   1. Install inquirer. 2. Use node index to run app
   Example video of how to generate a readme:
-  ![Example](https://drive.google.com/file/d/1Ewrjb7IwKcPDes6SzCBAU9z521TF4Dor/view)
+  [Example video](https://drive.google.com/file/d/1Ewrjb7IwKcPDes6SzCBAU9z521TF4Dor/view)
 
   ## Contributions 
   Contributions are welcome. 
