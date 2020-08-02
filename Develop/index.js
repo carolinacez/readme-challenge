@@ -8,34 +8,49 @@ const questions = () => {
         {
             type: 'input',
             name: 'title',
-            message: 'What is the projects name?'
+            message: 'What is the projects name?',
+            validate: titleInput => {
+                if (titleInput) {
+                    return true;
+                } else {
+                    console.log('Please enter a project name')
+                    return false;
+                }
+            }
         },
         {
             type: 'input',
             name: 'description',
-            message: 'Provide a description of your project'
+            message: 'Provide a description of your project:', 
+            validate: descriptionInput => {
+                if (descriptionInput){
+                    return true;
+                } else {
+                    console.log('Pleasae enter a project description')
+                    return false;
+                }
+            }
         },
         {
             type: 'input',
             name: 'installation',
-            message: 'What are the steps required to install your project?',
-            
+            message: 'What are the steps required to install your project?'
         },
         {
             type: 'input',
             name: 'usage',
-            message: 'Please provide instructions and examples for use. Provide links or screenshots'
+            message: 'Please provide instructions and examples for use:'
         },
         {
             type: 'checkbox',
             name: 'license',
-            message: 'Please choose a license',
+            message: 'Please choose a license:',
             choices: ['Apache', 'BSD', 'GNU', 'MIT', 'Mozilla']
         },
         {
             type: 'input',
             name: 'test', 
-            message: 'Please provide ways on how you can test your application'
+            message: 'Please provide ways on how you can test your application:'
         }, 
         {
             type: 'input',

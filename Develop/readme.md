@@ -1,7 +1,7 @@
 
-  # **project**
+  # **Readme Generator**
 
-  ![License](https://img.shields.io/badge/license-Apache-red.svg)
+  ![License](https://img.shields.io/badge/license-MIT-red.svg)
 
   ## **Table of Contents** 
   * [Description](#Description)
@@ -12,19 +12,21 @@
   * [Questions](#Questions)
 
   ## Description 
-  this is a challenge 
+  This project generates a readme using npm package inquirer
 
   ## Installation
-  step 1 step 2
+  Use npm install inquirer
 
   ## Usage 
-  please handle with care
+  1. Install inquirer. 2. Use node index to run app
 
   ## Contributions 
+  Contributions are welcome. 
+  Please submit a pull request or GitHub issue for any major changes. 
   
   ## Test 
-  test
+  no testing
 
   ## Questions 
-  This is the github username carolinacez. Please email carolinaccez@gmail.com
+ For any questions or issues, please email carolinaccez@gmail.com or visit github.com/carolinacez. 
 

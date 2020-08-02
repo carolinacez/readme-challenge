@@ -23,12 +23,14 @@ function generateMarkdown(data) {
   ${data.usage}
 
   ## Contributions 
+  Contributions are welcome. 
+  Please submit a pull request or GitHub issue for any major changes. 
   
   ## Test 
   ${data.test}
 
   ## Questions 
-  This is the github username ${data.github}. Please email ${data.email}
+ For any questions or issues, please email ${data.email} or visit github.com/${data.github}. 
 
 `;
 }
